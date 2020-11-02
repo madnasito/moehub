@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }
+
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between; }
+  header h1 a {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    padding: 10px;
+    text-decoration: none; }
+  header ul {
+    display: flex; }
+    header ul li {
+      list-style: none;
+      padding: 10px;
+      color: white; }
+      header ul li a {
+        font-size: 1.1em;
+        text-decoration: none;
+        color: white; }
+
+.content {
+  border-top: 20px solid black;
+  padding: 20px;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  background: linear-gradient(to bottom, #36004b, black);
+  text-anchor: 20px; }
+  .content a {
+    color: #df5252;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Fredoka One', cursive; }
+
+.series h1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 10px; }
+.series ul {
+  display: flex;
+  padding: 50px;
+  background-color: #110014;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .series ul li {
+    list-style: none;
+    padding: 20px; }
+    .series ul li a {
+      text-decoration: none; }
+      .series ul li a img {
+        width: 390px;
+        height: 540px; }
+      .series ul li a h3 {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        padding: 1%;
+        color: white; }
+    .series ul li img {
+      border: 5px solid black;
+      width: 390px;
+      height: 540px; }
+
+footer {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  position: relative; }
+
+/*# sourceMappingURL=style.css.map */
