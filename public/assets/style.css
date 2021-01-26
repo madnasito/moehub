@@ -32,7 +32,9 @@ header {
   color: white;
   font-size: 1.2em;
   text-align: center;
-  background: linear-gradient(to bottom, #36004b, black);
+  background: #8E0E00;
+  background: -webkit-linear-gradient(to top, #1F1C18, #8E0E00);
+  background: linear-gradient(to top, #1F1C18, #8E0E00);
   text-anchor: 20px; }
   .content a {
     color: #df5252;
